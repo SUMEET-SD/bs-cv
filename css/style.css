@@ -1,5 +1,6 @@
 body{
     background-color: rgba(240, 255, 240, 0.6);
+    font-family: 'Noto Serif', serif;
 }
 
 #programming{
@@ -10,25 +11,29 @@ body{
     background-color: rgba(128, 255, 0, 0.07);
 }
 
-#database{
+#database {
     background-color: rgba(128, 255, 0, 0.1);
 }
 
-#database .col{
+#database .col {
     background-color: rgba(128, 255, 0, 0.06);
 }
 
-#framework .col{
+#framework .col {
     background-color:rgba(248, 248, 255, 0.3);
 }
 
-.dropdown-menu{
+.dropdown-menu {
     background-color: hsl(110, 80%, 95%);
 }
 
-img{
+img {
     height: 150px;
     width: 150px;
+}
+
+.nav-link {
+    font-family: 'Roboto Slab', serif;
 }
 
 .bg-gray{
@@ -37,10 +42,12 @@ img{
 
 .ltp{
     background-color: honeydew;
+    
 }
 
 .rtp{
     background-color: honeydew;
+    font-family: 'Roboto Slab', serif;
 }
 
 .myself{
@@ -48,6 +55,7 @@ img{
     font-size:1.5rem;
     font-style:oblique;
     line-height: 2;
+    font-family: 'Lobster Two', cursive;
 }
 
 .lang-color{
@@ -85,7 +93,7 @@ img{
 
 .bottom-link a{
     color: rgba(0, 0, 0, 0.5);
-    font-weight: 500;
+    font-family: 'Roboto Slab', serif;
 }
 
 .bottom-link a:hover{
@@ -138,4 +146,8 @@ img{
 
 .modal-footer{
     background-color: hsla(90, 100%, 75%, 0.5);
+}
+
+.footer-bottom{
+    font-family: 'Roboto Slab', serif;
 }
