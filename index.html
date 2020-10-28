@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -310,7 +310,7 @@
 
                 <div class="col px-3">
                     <form action="mailto:info@sumeet-tech.com?subject=Need Help / Assistance in Project" method="post"
-                    enctype="text/plain">
+                        enctype="text/plain">
                         <div class="form-group">
                             <label for="message">Have any Project in mind ? Or Need any Assistance ?</label>
                             <input type="text" class="form-control" id="message" name="Project_Details"
@@ -319,7 +319,7 @@
                             <small id="descriptionHelp" class="form-text text-muted">I'll reach you as soon as
                                 possible</small>
                         </div>
-                        <button type="submit" class="btn btn-outline-secondary">Submit</button>
+                        <button type="submit" class="btn btn-outline-info ">Submit</button>
                     </form>
                 </div>
             </div>
@@ -336,47 +336,49 @@
     </footer>
 
 
+
+
     <!-- Modal -->
-    <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="modalContactFormTitle"
         aria-hidden="true">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
-                <div class="modal-header text-center">
-                    <h4 class="modal-title w-100 font-weight-bold">Contact me</h4>
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalContactFormLongTitle">Contact Me</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <form action="mailto:info@sumeet-tech.com?subject=Need Help / Assistance in Project" method="post"
                     enctype="text/plain">
-                    <div class="modal-body mx-3 ">
-                        <div class="md-form mb-5">
+                    <div class="modal-body">
+                        <div class="form-group mb-3">
                             <label data-error="wrong" data-success="right" for="name-text">Your name</label>
                             <input type="text" id="name-text" class="form-control validate" name="Name"
                                 placeholder="ex - SUMEET SD">
                         </div>
 
-                        <div class="md-form mb-5">
+                        <div class="form-group mb-3">
                             <label data-error="wrong" data-success="right" for="email-text">Your email</label>
                             <input type="email" id="email-text" class="form-control validate" name="Email"
                                 placeholder="ex - example@email.com">
                         </div>
 
-                        <div class="md-form mb-5">
+                        <div class="form-group mb-3">
                             <label data-error="wrong" data-success="right" for="topic">Subject</label>
                             <input type="text" id="topic" class="form-control validate" name="Subject"
                                 placeholder="ex - I want to create a Website / Desktop Software">
                         </div>
 
-                        <div class="md-form">
+                        <div class="form-group">
                             <label data-error="wrong" data-success="right" for="message-text">Your message</label>
                             <textarea type="text" id="message-text" class="md-textarea form-control" rows="4"
                                 name="Message" placeholder="Explain your Idea or Project here"></textarea>
                         </div>
 
                     </div>
-                    <div class="modal-footer d-flex justify-content-center">
-                        <button type="submit" class="btn btn-outline-primary px-3">Send Message</button>
+                    <div class="modal-footer d-flex justify-content-end">
+                        <button type="submit" class="btn btn-outline-success px-3">Send Message</button>
                     </div>
                 </form>
             </div>
@@ -384,7 +386,8 @@
     </div>
 
     <!-- Back to Top -->
-    <input type="image" onclick="topFunction()" id="myBtn" title="Go to top" src="assets/top.png" alt="Back-to-Top image not found">
+    <input type="image" onclick="topFunction()" id="myBtn" title="Go to top" src="assets/top.png"
+        alt="Back-to-Top image not found">
 
     <!--Back to Top JS -->
     <script>
@@ -415,7 +418,7 @@
 
     <!-- Active Navigation -->
     <script>
-       
+
     </script>
 
     <!-- Bootstrap JS -->
