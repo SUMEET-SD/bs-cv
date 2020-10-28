@@ -22,6 +22,10 @@ body{
     background-color:rgba(248, 248, 255, 0.3);
 }
 
+.dropdown-menu{
+    background-color: hsl(110, 80%, 95%);
+}
+
 img{
     height: 150px;
     width: 150px;
